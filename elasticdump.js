@@ -10,6 +10,7 @@ var elasticdump = function(input, output, options){
   self.input   = input;
   self.output  = output;
   self.options = options;
+  console.log(JSON.stringify(options));
   if (!self.options.searchBody)  {
       self.options.searchBody = {"query": { "match_all": {} } };
   }

@@ -22,6 +22,7 @@ var defaults = {
   searchBody: 	   '{"query": { "match_all": {} } }',
   timeout:         null,
   skip:            null,
+  strictSSL:       true
 };
 
 var options = {};
